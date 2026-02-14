@@ -2,7 +2,7 @@
 
 **A numerical simulation of binary black hole dynamics, demonstrating the transition from stable Keplerian orbits to radiative inspiral.**
 
-![Inspiral Demo](results/binary_inspiral_inset.png)
+![Inspiral Demo](Results/binary_inspiral_inset.png)
 
 ## Project Overview
 This repository contains a suite of Python simulations designed to model the orbital dynamics of binary black hole systems. While full General Relativity requires complex tensor calculus, the "chirp" dynamics of a merger can be effectively modeled by augmenting standard Newtonian mechanics with phenomenological dissipative terms.
