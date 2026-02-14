@@ -2,7 +2,7 @@
 
 **A numerical simulation of binary black hole dynamics, demonstrating the transition from stable Keplerian orbits to radiative inspiral.**
 
-![Inspiral Demo](Results/binary_inspiral_inset.png)
+![Inspiral Demo](Results/inspiral_movie.gif)
 
 ## Project Overview
 This repository contains a suite of Python simulations designed to model the orbital dynamics of binary black hole systems. While full General Relativity requires complex tensor calculus, the "chirp" dynamics of a merger can be effectively modeled by augmenting standard Newtonian mechanics with phenomenological dissipative terms.
@@ -33,12 +33,11 @@ The project is divided into a "Control" experiment and the main "Inspiral" simul
 ### Radiative Inspiral & Energy Loss
 The plot below shows the orbital decay (left) and the total mechanical energy over time (right). Note the **non-linear energy drop**: as the black holes spiral closer, the orbital period decreases and the dissipative force increases, leading to a runaway "chirp" at the merger.
 
-![Inspiral Analysis](results/binary_inspiral_inset.png)
-
+![Inspiral Analysis](Results/binary_inspiral_inset.png)
 ### Integrator Validation (Stable Orbit)
 Before modeling dissipation, the engine was tested on a conservative system. The flat energy curve confirms that the orbital precession is physical, not a numerical artifact.
 
-![Stable Orbit](results/stable_orbit.png)
+![Stable Orbit](Results/Orbit_Two_Body.png)
 
 ## Technical Implementation
 * **Language:** Python 3 (`NumPy`, `Matplotlib`)
