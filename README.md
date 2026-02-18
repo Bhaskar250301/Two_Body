@@ -35,7 +35,7 @@ The plot below shows the orbital decay (left) and the total mechanical energy ov
 
 ![Inspiral Analysis](Results/binary_inspiral_inset.png)
 ### Integrator Validation (Stable Orbit)
-Before modeling dissipation, the engine was tested on a conservative system. The flat energy curve confirms that the orbital precession is physical, not a numerical artifact.
+Before modeling dissipation, the engine was tested on a conservative system. The flat energy curve(order 1e-13) confirms that the orbital precession is physical, not a numerical artifact.
 
 ![Stable Orbit](Results/Orbit_Two_Body.png)
 
